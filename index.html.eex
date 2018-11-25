@@ -1,0 +1,6 @@
+<div classs="form_group">
+  <%= text_input :user, :name, value: "" %>
+</div>
+<div class="form_group">
+  <%= submit "Submit", class: "btn btn-primary" %>
+</div>
